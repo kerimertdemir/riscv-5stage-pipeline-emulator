@@ -1,0 +1,13 @@
+# Compiled binaries
+emulator
+emulator.exe
+*.o
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDES
+.vscode/
+.idea/
+*.cbp
