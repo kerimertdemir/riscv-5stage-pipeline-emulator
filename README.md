@@ -30,7 +30,7 @@ Features a highly flexible assembly parser that simplifies test execution:
 
 If you are on Windows and don't want to set up a C toolchain, you can download the standalone executable directly:
 1. Navigate to the **Releases** tab on the right side of this repository.
-2. Download `emulator.exe` (statically compiled via MinGW).
-3. Open **PowerShell** or **Command Prompt** in the download directory and run:
+2. Download `emulator.exe` (compiled via MinGW cross-compiler).
+3. Simply double-click the `emulator.exe` to launch the standalone console application, or run it via **PowerShell** / **Command Prompt**:
    ```powershell
    ./emulator.exe
